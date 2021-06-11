@@ -29,7 +29,7 @@ sudo yum install -y php php-cli php-common php-devel php-mysql
 sudo yum install -y mysql mariadb-server mysql-devel
 sudo systemctl enable mariadb
 
-sudo systemctl mariadb start
+sudo systemctl start mariadb
 
 mysql -u root -e "SHOW DATABASES";
 
