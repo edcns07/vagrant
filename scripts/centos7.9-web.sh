@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 #Apache
 sudo yum install -y httpd httpd-devel httpd-tools
 # chkconfig --add httpd => deprecated

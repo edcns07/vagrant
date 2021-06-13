@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 #MySQL
 #MySQL is not a default drop-in dbase in CentOS7, but Mariadb by default.
 #sudo yum install -y mysql mysql-server mysql-devel
